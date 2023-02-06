@@ -1,0 +1,41 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <form>
+                        <h3 class="text-center">LOGIN</h3>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" [(ngModel)]="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" [(ngModel)]="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">SIGN IN</button>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <div class="switch">
+                                    <a href="/register">Don't have an Account ? &nbsp;<span class="text-danger">SIGN
+                                            UP</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <a (click)="signingoogle()">
+                                    <div class="card card2">
+                                        <div class="card-body">
+                                            <img style="width: 40px;" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png">&nbsp;SIGN IN WITH GOOGLE
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
